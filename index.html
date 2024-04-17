@@ -40,7 +40,11 @@
 
                     <div>
                         <label for="phone_number">Phone number</label>
-                        <input type="text" id="phone_number" name="phone_number">
+                        <input type="number"
+                        oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                        minlength="16"
+                        maxlength="16"
+                        placeholder="e.g.97 533 751" id="phone_number" name="phone_number">
                     </div>
                 
                     <div>

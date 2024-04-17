@@ -48,8 +48,6 @@ a {
     padding-top: 15px;
     
     background-color: rgba(0, 0, 0, 0.2);
-    font-family: 'Sacramento', serif;
-    font-size: 4rem;
 }
 
 .logo img {
@@ -182,6 +180,11 @@ p {
     font-size: 1rem;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 /* Desktop */
 
